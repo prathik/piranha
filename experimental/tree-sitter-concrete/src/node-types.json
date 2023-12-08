@@ -1,0 +1,81 @@
+[
+  {
+    "type": "node_type",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "template_expression",
+          "named": true
+        },
+        {
+          "type": "token_expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "template",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "node_type",
+          "named": true
+        },
+        {
+          "type": "var_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "template_expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "template",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "var_name",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": ":[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "token_expression",
+    "named": true
+  }
+]
